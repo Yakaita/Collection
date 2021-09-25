@@ -1,0 +1,5 @@
+Version: 1
+Prefix: "&d&l[Collection]"
+Locale: en
+Command_Aliases: [collections, col]
+
