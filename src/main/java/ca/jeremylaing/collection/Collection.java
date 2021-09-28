@@ -6,7 +6,6 @@ import ca.tweetzy.tweety.Common;
 import ca.tweetzy.tweety.Messenger;
 import ca.tweetzy.tweety.command.SimpleCommandGroup;
 import ca.tweetzy.tweety.plugin.SimplePlugin;
-import com.massivecraft.massivecore.store.Coll;
 import lombok.Getter;
 
 public class Collection extends SimplePlugin {

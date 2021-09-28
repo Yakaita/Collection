@@ -1,7 +1,6 @@
 package ca.jeremylaing.collection.commands;
 
 import ca.tweetzy.tweety.command.SimpleCommandGroup;
-import github.scarsz.discordsrv.dependencies.jackson.annotation.JsonProperty;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
