@@ -12,6 +12,18 @@ public class Settings extends SimpleSettings {
         PREFIX = getString("Prefix");
     }
 
+    public static final class Collectables{
+
+        public static boolean ALWAYS_NEW;
+        public static boolean ALLOW_DUPLICATES;
+
+        private static void init(){
+            pathPrefix("Collectables");
+            ALWAYS_NEW = getBoolean("Always New");
+            ALLOW_DUPLICATES = getBoolean("Allow Duplicates");
+        }
+    }
+
     @Override
     protected int getConfigVersion() {
         return 1;

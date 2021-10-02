@@ -1,17 +1,24 @@
 # -------------------------------------------------------------------------------------------------
-# The prefix for all the messages sent by the plugin
+# Default settings
 # -------------------------------------------------------------------------------------------------
+
+# The prefix for all the messages sent by the plugin
 Prefix: "&d&l[Collection]"
 
-# -------------------------------------------------------------------------------------------------
 # The language file to use.
-# -------------------------------------------------------------------------------------------------
 Locale: en
 
-# -------------------------------------------------------------------------------------------------
-# The main command and it's aliases. Do not remove the first one!
-# -------------------------------------------------------------------------------------------------
+# The main command and it's aliases. the first arg (collections) can not be changed!
 Command_Aliases: [collections, col]
+
+# -------------------------------------------------------------------------------------------------
+# Collectable settings
+# -------------------------------------------------------------------------------------------------
+Collectables:
+  #If true, the player will always get a new collectable.
+  Always New: true
+  #Allows users to get a collectable they already have, if "Always New" is true, this won't matter
+  Allow Duplicates: false
 
 # -------------------------------------------------------------------------------------------------
 # Do not change this value, otherwise it will corrupt your plugin installation!

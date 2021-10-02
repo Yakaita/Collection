@@ -1,6 +1,7 @@
 package ca.jeremylaing.collection;
 
 import ca.jeremylaing.collection.commands.CommandGroup;
+import ca.jeremylaing.collection.listeners.PlayerListeners;
 import ca.jeremylaing.collection.settings.Settings;
 import ca.tweetzy.tweety.Common;
 import ca.tweetzy.tweety.Messenger;
@@ -25,6 +26,9 @@ public class Collection extends SimplePlugin {
         Messenger.setQuestionPrefix(Settings.PREFIX + " ");
         Messenger.setSuccessPrefix(Settings.PREFIX + " ");
         Messenger.setWarnPrefix(Settings.PREFIX + " ");
+
+        //Register listeners
+        registerEvents(new PlayerListeners());
     }
 
     public static Collection getInstance(){

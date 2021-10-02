@@ -4,7 +4,13 @@ import ca.tweetzy.tweety.settings.SimpleLocalization;
 
 public final class Localization extends SimpleLocalization {
 
+    public static String COLLECTABLE_EARNED;
 
+    public static void init(){
+        pathPrefix(null);
+
+        COLLECTABLE_EARNED = getString("Collectable Earned");
+    }
 
 
 
